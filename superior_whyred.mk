@@ -25,6 +25,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
+# Inherit from custom vendor
+$(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
+
 # Inherit some common Superior OS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/superior/config/common.mk)
