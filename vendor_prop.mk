@@ -134,7 +134,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.hw.binder.size_kbyte=1024
-
-#Density
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=436
